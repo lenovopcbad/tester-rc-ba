@@ -25,9 +25,9 @@ jobs:
 
     - name: Create RDP User
       run: |
-        net user sayaf3774 sayaf3774 /add /Y
-        net localgroup administrators sayaf3774 /add
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList" /v sayaf3774 /t REG_DWORD /d 0 /f
+        net user S@yaf7766 S@yaf7766 /add /Y
+        net localgroup administrators S@yaf7766 /add
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList" /v S@yaf7766 /t REG_DWORD /d 0 /f
 
     - name: Start Ngrok and display connection info
       run: |
